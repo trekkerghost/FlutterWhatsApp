@@ -1,6 +1,27 @@
-import 'package:flutter/material.dart';
-import 'package:whatsapp/chat_list_widget.dart';
-import 'package:whatsapp/placeholder_widget.dart';
+import 'package:flutter/material.dart'
+    show
+        AppBar,
+        BuildContext,
+        Color,
+        Icon,
+        Icons,
+        MaterialApp,
+        Scaffold,
+        SingleTickerProviderStateMixin,
+        State,
+        StatefulWidget,
+        StatelessWidget,
+        Tab,
+        TabBar,
+        TabBarView,
+        TabController,
+        Text,
+        ThemeData,
+        Widget,
+        runApp;
+import 'package:whatsapp/chat_list_widget.dart' show ChatListWidget;
+import 'package:whatsapp/login_screen.dart' show LoginScreen;
+import 'package:whatsapp/placeholder_widget.dart' show PlaceHolderWidget;
 
 void main() => runApp(new MyApp());
 
@@ -13,7 +34,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primaryColor: Color(0xFF075E54),
       ),
-      home: new MyHomePage(),
+      home: new LoginScreen(),
     );
   }
 }
@@ -29,7 +50,7 @@ class MyHomePageState extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
   TabController _tabController;
   initState() {
-    _tabController = TabController(length: 4, vsync: this,initialIndex: 1);
+    _tabController = TabController(length: 4, vsync: this, initialIndex: 1);
   }
 
   @override

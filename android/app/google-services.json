@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "945369971081-29mncncfriua7kgif4ftar17fdukoe4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trekkerghost.whatsapp",
+            "certificate_hash": "420602172b4a0d4e923d64f176bd0b21afea7b51"
+          }
+        },
+        {
           "client_id": "945369971081-ekjoj3t6gf8blmicavf7p061iu7k97d1.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945369971081-ekjoj3t6gf8blmicavf7p061iu7k97d1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
