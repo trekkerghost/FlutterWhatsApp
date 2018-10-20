@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "945369971081",
+    "firebase_url": "https://flutterwhatsapp.firebaseio.com",
+    "project_id": "flutterwhatsapp",
+    "storage_bucket": "flutterwhatsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945369971081:android:0f63cb1f45e906b9",
+        "android_client_info": {
+          "package_name": "com.trekkerghost.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945369971081-ekjoj3t6gf8blmicavf7p061iu7k97d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcndTDrs9FySzjK8gp6eTWceXuofgfALk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
